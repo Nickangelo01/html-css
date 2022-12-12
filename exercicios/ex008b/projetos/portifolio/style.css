@@ -1,0 +1,16 @@
+:root{
+    --main-musgo:#414016;
+    --main-darkgreen: #6e7a31;
+    --main-green: #a7b987;
+    --main-ligthgreen: #dedaad;
+}
+/*BODY SECTION START*/
+h1{
+    font-family: ;
+}
+h1, p{
+    color: var(--main-ligthgreen);
+    background-color: var(--main-darkgreen);
+}
+/*NAV SECTION START*/
+
