@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h2>Reproduzindo Audio</h2>
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+    <audio preload="auto" autoplay controls loop>
+        <source src="midia/X2Download.com - SET DJ SALATIEL - MC's W1, MR BIM, VININ, ARRAIA, BRYAN SS, VITINHO AVASSALADOR, 2RA, MADAN E FIOT (128 kbps).mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador nao consegui reproduzir o audio. Mas você pode baixa-lo <a href="midia/X2Download.com - SET DJ SALATIEL - MC's W1, MR BIM, VININ, ARRAIA, BRYAN SS, VITINHO AVASSALADOR, 2RA, MADAN E FIOT (128 kbps).mp3">aqui</a></p>
+    </audio>
+</html>
